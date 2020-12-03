@@ -107,9 +107,8 @@ function draw() {
     snake.unshift(newHead);
 
     ctx.fillStyle = "rgb(125, 150, 135)";
-    // ctx.font = "45px Changa one";
     ctx.font = "45px sans-serif";
     ctx.fillText(score, 2 * box, 1.6 * box);
 }
 
-let game = setInterval(draw, 150);
+let game = setInterval(draw, 200);
